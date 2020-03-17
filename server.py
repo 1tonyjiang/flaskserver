@@ -11,10 +11,10 @@ api = Api(app)
 
 
 mydb = mysql.connector.connect(
-        host = "localhost", 
-        user = "tony",
-        passwd = "pentel123",
-        database = "calendar"
+        host = "", 
+        user = "",
+        passwd = "",
+        database = ""
         )
 cursor = mydb.cursor()
 
